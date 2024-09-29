@@ -1,0 +1,118 @@
+.portfolio-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: #000000; */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    text-align: center; /* Center align text in each section */
+    margin-top: 110px; /* Increase top margin for more space below the section header */
+  }
+  .section1 {
+    margin-bottom: 40px;
+    text-align: center; /* Center align text in each section */
+    margin-top: 40px; /* Increase top margin for more space below the section header */
+    
+  }
+  
+  .section h1 {
+    font-size: 50px;
+    margin-bottom: 20px; /* Increase margin between header and content */
+  }
+  .section1 h2 {
+    margin-bottom: 20px; /* Increase margin between header and content */
+    font-size: 30px;
+  }
+  
+  .section p {
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto; /* Center align paragraphs */
+    max-width: 600px; /* Limit width to prevent stretching across wide screens */
+  }
+  .scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    display: flex;
+    gap: 20px;
+  }
+  
+  .work-experience,
+  .projects {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    flex: 0 0 auto; /* Prevent items from stretching */
+    min-width: 300px; /* Minimum width for each item */
+  }
+  @media (max-width: 768px) {
+    .work-experience,
+    .projects {
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Adjusted minmax value for mobile */
+    }
+  }
+  
+  .work-item,
+  .project-item {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    flex: 0 0 auto; /* Prevent items from stretching */
+    min-width: 300px; /* Minimum width for each item */
+    max-width: 300px;
+  }
+  
+  .work-item img,
+  .project-item img {
+    width: 100%;
+    height: auto;
+    max-width: 190px; /* Adjust image size as needed */
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .work-item p,
+  .project-item p {
+    font-size: 14px;
+  }
+  /* Education Section */
+.education-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px; /* Add some space below */
+  max-width: 800px; /* Limit width */
+  margin: 0 auto; /* Center the section */
+  text-align:left;
+}
+
+.university-logo {
+  width: 50%; /* Adjust size */
+  height: auto;
+  margin-right: 20px; /* Space between logo and text */
+}
+
+.education-description h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+  
