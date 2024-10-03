@@ -1,0 +1,89 @@
+.creative-portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-screen height */
+    background-color: #f0f8ff; /* Light background color */
+    position: relative;
+  }
+  
+  .content-container {
+    width: 900px;
+    z-index: 2; /* Ensure the content stays above the animations */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .flower-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    pointer-events: none; /* Make sure animations don't block user interaction */
+  }
+  
+  .flower-left,
+  .flower-right {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    bottom: 0;
+    animation: bloom 15s ease-in-out infinite;
+  }
+  
+  .flower-left {
+    left: 50px; /* Adjust the left side position */
+  }
+  
+  .flower-right {
+    right: 50px; /* Adjust the right side position */
+  }
+  
+  .butterfly-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .butterfly {
+    position: absolute;
+    top: 20%;
+    left: -100px; /* Start from off-screen */
+    width: 80px;
+    animation: fly 20s linear infinite;
+  }
+  
+  @keyframes bloom {
+    0% {
+      transform: scale(0); /* Start small */
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2); /* Over-bloom slightly */
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1); /* Settle at full size */
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fly {
+    0% {
+      left: -100px;
+      top: 20%;
+    }
+    50% {
+      left: 50%;
+      top: 30%;
+    }
+    100% {
+      left: 110%;
+      top: 10%;
+    }
+  }
+  

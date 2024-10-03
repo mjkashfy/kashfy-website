@@ -65,15 +65,15 @@
     border-radius: 8px;
     background-color: #f9f9f9;
     flex: 0 0 auto; /* Prevent items from stretching */
-    min-width: 300px; /* Minimum width for each item */
-    max-width: 300px;
+    /* min-width: 300px; Minimum width for each item */
+    width: 300px;
   }
   
   .work-item img,
   .project-item img {
     width: 100%;
     height: auto;
-    max-width: 190px; /* Adjust image size as needed */
+    max-width: 250px; /* Adjust image size as needed */
     object-fit: contain;
     margin-bottom: 10px;
   }
@@ -114,5 +114,11 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
 }
+.education-description h3,p,h4 {
+  padding-bottom: 10px;
+}
+ .work-description {
+  text-align: left;
+ }
 
   
