@@ -6,7 +6,7 @@ import './CoverSection.css';
 function CoverSection() {
   return (
     <div className='cover-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted/>
+      <video src='/videos/video-1.mp4' autoPlay loop muted playsInline disablePictureInPicture/>
       <h1>Miftahul Kashfy</h1>
       {/* <p>Welcome to my corner of the web! 
         I'm Kashfy, a passionate computer science graduate 
