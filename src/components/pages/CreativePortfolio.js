@@ -16,7 +16,7 @@ function CreativePortfolio() {
 
       <div className="content-container">
         <h1>My Creative Portfolio</h1>
-        <p>Explore my creative work, art, and animation projects!</p>
+        <p>Explore my creative work, art, and animation projects! tiny change to check if github is connected</p>
         {/* Add your creative portfolio content here */}
       </div>
     </div>
