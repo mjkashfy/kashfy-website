@@ -14,15 +14,12 @@ function CoverSection() {
         Explore my journey through technology and more. 
         Let's connect  and discover together!</p> */}
         <p>Welcome to my corner of the web! 
-          I'm Kashfy, a passionate computer science graduate 
-          with a flair for creativity and a strong 
-          foundation in technology. 
-          Alongside my tech skills, 
-          I have experience in sales, social media management, and 
-          customer service, allowing me to connect with diverse audiences 
-          and solve a range of challenges. Explore my journey through 
-          technology and beyond—let's connect and discover together 
-          on a website I built from scratch!
+          I'm Kashfy, a computer science graduate with a passion 
+          for creativity and technology. Beyond tech, 
+          I have experience in sales, social media management, 
+          event planning, customer service etc., allowing me to connect with 
+          diverse audiences. Explore my journey and let's connect 
+          on this website I built from scratch!
         </p>
         
 

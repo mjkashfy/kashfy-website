@@ -4,8 +4,16 @@ import './Portfolio.css'; // Import your custom CSS for styling
 
 function Portfolio() {
   return (
+    
     <div className='portfolio-container'>
+        <section className='message'>
+        <p>
+          Hey there! my website is still under development but it is fun to just put it out there.
+          I'm actively updating my webpage, please feel free to look around 🤗
+        </p>
+        </section>
       <section className='section'>
+        
         <h1>Portfolio</h1>
         <p>This is where you'll find detailed description of my education 
           and a comprehensive showcase 
@@ -79,7 +87,7 @@ function Portfolio() {
         <div className='scroll-container'>
           <div className='project-item'>
 
-            
+
             <img src='/images/img-3.jpg' alt='Project 1' />
             <p>Description of Project 1</p>
           </div>

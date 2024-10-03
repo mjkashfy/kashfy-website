@@ -5,6 +5,11 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
+        <p>
+          Hey there! my website is still under development - some pages are not completed yet.
+          I'm actively updating my webpage, please feel free to look around 🤗
+        </p>
+
       <h1>Check out these sections below!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
