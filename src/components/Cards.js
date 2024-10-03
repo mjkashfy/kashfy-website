@@ -7,7 +7,7 @@ function Cards() {
     <div className='cards'>
         <p>
           Hey there! my website is still under development - some pages are not completed yet.
-          I'm actively updating my webpage, please feel free to look around 🤗
+          I'm actively updating my webpage, but coding from scratch takes times. Please feel free to look around 🤗
         </p>
 
       <h1>Check out these sections below!</h1>

@@ -4,12 +4,11 @@ import './Portfolio.css'; // Import your custom CSS for styling
 
 function Portfolio() {
   return (
-    
     <div className='portfolio-container'>
         <section className='message'>
         <p>
           Hey there! my website is still under development but it is fun to just put it out there.
-          I'm actively updating my webpage, please feel free to look around 🤗
+          <br />I'm actively updating my webpage, but coding from scratch takes times. please feel free to look around 🤗
         </p>
         </section>
       <section className='section'>
