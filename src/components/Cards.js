@@ -32,19 +32,19 @@ function Cards() {
               src='images/awards.jpg'
               text='Achievements Unlocked Here!'
               label='Certificates and Awards'
-              path='/portfolio'
+              path='/aboutMe'
             />
             <CardItem
               src='images/blog.png'
               text="What's been up recently.."
               label='Blogs and Thoughts'
-              path='/products'
+              path='/aboutMe'
             />
             <CardItem
               src='images/img-plag.png'
               text='Credits for everything I used to build this website'
               label='Credits'
-              path='/sign-up'
+              path='/aboutMe'
             />
           </ul>
         </div>
